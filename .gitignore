@@ -1,0 +1,26 @@
+# Binários e arquivos de objeto
+*.ko
+*.o
+*.mod
+*.mod.c
+*.mod.o
+*.order
+*.symvers
+*.markers
+
+# Arquivos temporários de compilação do Kernel
+.tmp_versions/
+.*.cmd
+.cache.mk
+
+# Arquivos de log e depuração
+*.o.d
+*.o.ur-safe
+.built-in.a.cmd
+built-in.a
+
+# Documentação e extras do editor
+*.swp
+*~
+.vscode/
+.idea/
